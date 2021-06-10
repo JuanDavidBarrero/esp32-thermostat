@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -28,7 +30,7 @@ h2{
 
 .show-temp{
     font-weight: bolder;
-    font-family: 'Taviraj', serif;
+    font-family: 'DSEG7 Modern Mini',monospace;
     font-size: 1.5em;
     padding: 12px 10px;
     color: #74013a;
