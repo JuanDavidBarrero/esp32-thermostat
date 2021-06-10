@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termometro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@1,100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>ESP32 Thermostat</h2>
+
+        <div id="showtemp" class="show-temp">
+            <p>NaN°C</p>
+        </div>
+
+        <div class="data">
+            <p>Time</p>
+            <input id="fecha" type="text">
+        </div>
+
+        <div class="data">
+            <p>Min</p>
+            <input class="min" id="min" type="text" placeholder="%Valor-minimo%">
+        </div>
+
+        <div class="data">
+            <p>Max</p>
+            <input id="max" class="max" type="text" placeholder="%Valor-maximo% ">
+        </div>
+
+        <div class="btn-list">
+            <button id="basico">Default</button>
+            <button id="reboot">Reboot</button>
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
