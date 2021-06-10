@@ -38,7 +38,7 @@ h2{
     width: 200px;
     background-color: #258125;
     margin-bottom: 20px;
-    box-shadow: 0px 1px 0px 4px rgb(83, 83, 83);
+    box-shadow: 0px 0px 0px 5px #4d4b4b;
 }
 
 .show-temp.min{
